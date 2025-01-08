@@ -22,7 +22,8 @@ const About = () => {
                 <p className="text-sm md:text-md leading-tight">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qu recusandae provident consectetur sed itaque alias
+                  perferendis quos consectetur ea harum! Libero aut qu 
+                  recusandae provident consectetur sed itaque alias
                   sint ipsa?
                 </p>
               </span>
