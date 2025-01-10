@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import Projects from "./Components/Projects/Projects"
 
 function App() {
+  
   return (
     <div className="bg-[#171d32] w-full overflow-hidden h-auto">
       <Navbar />
