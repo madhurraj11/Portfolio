@@ -12,14 +12,15 @@ const Projects = () => {
           demoLink="https://snapgram-nu.vercel.app/"
           codeLink="https://github.com/madhurraj11/snapgram"
           title="Social Media Website - Snapgram"
-          main="this is a bloggin website created in next js and used some component library used some component library"
+          main="Developed a feature-rich social media platform using React.js and Node.js. Leveraged Appwrite for user authentication, database management, and backend
+functionalities, ensuring robust and secure operations."
         />
         <ProjectCard
           demoLink="https://foodvillarestaurant.netlify.app/"
           codeLink="https://github.com/madhurraj11/snapgram"
           image={foodvilla}
           title="FoodVilla Website"
-          main="this is a bloggin website created in next js and used some component library used some component library"
+          main="Designed and implemented visually appealing and intuitive interfaces using HTML and CSS, ensuring seamless and engaging user interactions."
         />
         
       </div>
