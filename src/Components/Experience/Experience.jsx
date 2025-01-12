@@ -1,9 +1,8 @@
-import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiRedis } from "react-icons/si";
-import { FaGoogle } from "react-icons/fa";
+import { FaCss3, FaNode, FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import { RiNetflixFill } from "react-icons/ri";
-import { FaAmazon } from "react-icons/fa";
+import { TbFileTypeSql } from "react-icons/tb";
+import CompanyLogo from "../../assets/CompanyLogo.jpg";
 const Experience = () => {
   return (
     <div id="Experience" className="p-10 md:p-24">
@@ -23,52 +22,30 @@ const Experience = () => {
             <FaJs color="#F7DF1E" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <FaFigma color="#F24E1E" size={50} />
+            <FaNode color="#F24E1E" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiRedis color="#FF4438" size={50} />
+            <SiTypescript color="#47A248" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <TbFileTypeSql color="#47A248" size={50} />
           </span>
         </div>
         <div>
           <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <FaGoogle color="#4285F4" size={50} />
+            <img src={CompanyLogo}  alt="Logo" color="#4285F4" width="100px"/>
             <span className="text-white">
-              <h2 className="leading-tight">Software Engineer , Google</h2>
+              <h2 className="leading-tight">Programmer , Dynata , Noida</h2>
               <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
+                Jan 2023 - Present
               </p>
               <ul className="text-sm p-2">
-                <li>- Work as software developer</li>
-                <li>- Senior SDE-developer</li>
-              </ul>
-            </span>
-          </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <RiNetflixFill color="#E50914" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
-              </ul>
-            </span>
-          </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <FaAmazon color="#FF9900" size={50} />
-            <span className="text-white">
-              <h2 className="leading-tight">Software Engineer, Google</h2>
-              <p className="text-sm leading-tight font-thin">
-                Sept 2023 - Present
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Work as software developer.</li>
-                <li>- Senior SDE-developer</li>
+                <li>- Work as survey programmer</li>
+                <li>- Designed and implemented complex online surveys</li>
+                <li>- Using tools such as Python, JavaScript, HTML and CSS</li>
               </ul>
             </span>
           </div>
