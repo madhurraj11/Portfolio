@@ -20,24 +20,11 @@ const About = () => {
                   Frontend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis quos consectetur ea harum! Libero aut qu 
-                  recusandae provident consectetur sed itaque alias
-                  sint ipsa?
-                </p>
-              </span>
-            </div>
-            <div className="flex gap-3 py-4">
-              <IoArrowForward size={30} className="mt-1" />
-
-              <span className="w-96">
-                <h1 className="text-xl md:text-2xl font-semibold leading-normal">
-                  Database developer
-                </h1>
-                <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores
+                  I bring designs to life with clean, responsive, and
+                  user-friendly interfaces. With expertise in HTML, CSS,
+                  JavaScript, and modern frameworks, I focus on creating
+                  seamless experiences that captivate users and enhance
+                  usability.
                 </p>
               </span>
             </div>
@@ -49,9 +36,10 @@ const About = () => {
                   Backend developer
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Maiores explicabo deserunt asperiores quasi, vitae blanditiis
-                  perferendis
+                  I specialize in building robust, scalable, and secure
+                  server-side systems. Proficient in databases, APIs, and
+                  server-side programming languages, I ensure that the backbone
+                  of every application is efficient and reliable.
                 </p>
               </span>
             </div>
