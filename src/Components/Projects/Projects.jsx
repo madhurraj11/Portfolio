@@ -1,4 +1,6 @@
 import ProjectCard from "./ProjectCard";
+import snapgram from "../../assets/Snapgram.png";
+import foodvilla from "../../assets/Foodvilla.png";
 
 const Projects = () => {
   return (
@@ -6,17 +8,20 @@ const Projects = () => {
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5 justify-center">
         <ProjectCard
-          title="Blogging Website"
+          image={snapgram}
+          demoLink="https://snapgram-nu.vercel.app/"
+          codeLink="https://github.com/madhurraj11/snapgram"
+          title="Social Media Website - Snapgram"
           main="this is a bloggin website created in next js and used some component library used some component library"
         />
         <ProjectCard
-          title="Youtue Clone"
+          demoLink="https://foodvillarestaurant.netlify.app/"
+          codeLink="https://github.com/madhurraj11/snapgram"
+          image={foodvilla}
+          title="FoodVilla Website"
           main="this is a bloggin website created in next js and used some component library used some component library"
         />
-        <ProjectCard
-          title="Netflix Clone"
-          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
-        />
+        
       </div>
     </div>
   );
