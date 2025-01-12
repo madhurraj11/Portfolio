@@ -20,7 +20,8 @@ functionalities, ensuring robust and secure operations."
           codeLink="https://github.com/madhurraj11/snapgram"
           image={foodvilla}
           title="FoodVilla Website"
-          main="Designed and implemented visually appealing and intuitive interfaces using HTML and CSS, ensuring seamless and engaging user interactions."
+          main="Designed and implemented visually appealing and intuitive interfaces using HTML and CSS, ensuring seamless and engaging user interactions. Integrated with backend APIs to dynamically fetch and display up-to-date information,
+ensuring data accuracy and relevance."
         />
         
       </div>
