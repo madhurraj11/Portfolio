@@ -4,7 +4,7 @@ import { SiMongodb } from "react-icons/si";
 import { TbFileTypeSql } from "react-icons/tb";
 import CompanyLogo from "../../assets/CompanyLogo.jpg";
 const Experience = () => { 
-  return (
+  return ( 
     <div id="Experience" className="p-10 md:p-24">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Experience</h1>
       <div className="flex flex-wrap items-center justify-around">
